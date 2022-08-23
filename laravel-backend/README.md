@@ -13,6 +13,13 @@
 
 ### Admin Account
 ```
+url : host/login
 email: root@mail.com
 password: root@1234
 ```
+
+##After login
+- go to /setting
+- edit Vk app client id & secret and imgbb api token
+- after update, generate vk access token
+

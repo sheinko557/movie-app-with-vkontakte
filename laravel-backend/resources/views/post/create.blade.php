@@ -21,6 +21,7 @@
 <div class="form-group">
     <label for="url">Video Url</label>
 <input type="text" class="form-control @error('key') is-invalid @enderror" id="url" name="key" placeholder="Enter VK video url">
+<small id="urlHelp" class="form-text text-muted">Example : https://m.vk.com/video-1234_6543210</small>
 @error('key')
  <span class="invalid-feedback" role="alert">
  <strong>{{ $message }}</strong></span>
